@@ -3,7 +3,7 @@
 #### Q1. Given the string "strawberries" saved in a variable called fruit, what would `fruit.substring(2, 5)` return?
 
 - [ ] rawb
-- [x] raw
+- [ ] raw
 - [ ] awb
 - [ ] traw
 
@@ -19,7 +19,7 @@
 
 - [ ] method overloading
 - [ ] method overrunning
-- [x] method overriding
+- [ ] method overriding
 - [ ] method calling
 
 #### Q3. Given the following definitions, which of these expression will **NOT** evaluate to true?
@@ -27,7 +27,7 @@
 `boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;`
 
 - [ ] `(i1 | i2) == 3`
-- [x] `i2 && b1`
+- [ ] `i2 && b1`
 - [ ] `b1 || !b2`
 - [ ] `(i1 ^ i2) < 4`
 
@@ -46,7 +46,7 @@
 8: }
 ```
 
-- [x] It will not compile because of line 4.
+- [ ] It will not compile because of line 4.
 - [ ] It will not compile because of line 3.
 - [ ] 123
 - [ ] 1234
@@ -70,7 +70,7 @@ interface Interface2 {
 - [ ] `super1.print(); super2.print();`
 - [ ] `this.print();`
 - [ ] `super.print();`
-- [x] `Interface1.print(); Interface2.print();`
+- [ ] `Interface1.print(); Interface2.print();`
 
 #### Q7. What does the following code print?
 
@@ -85,7 +85,7 @@ System.out.println(str);
 - [ ] CD
 - [ ] CDE
 - [ ] D
-- [x] "abcde"
+- [ ] "abcde"
 
 #### Q8. What is the result of this code?
 
@@ -105,7 +105,7 @@ class Main {
 ```
 
 - [ ] It will show a stack trace with a runtime exception.
-- [x] "java.lang.Exception"
+- [ ] "java.lang.Exception"
 - [ ] It will run and throw an exception.
 - [ ] It will not compile.
 
@@ -152,7 +152,7 @@ class Three implements One, Two {
 }
 ```
 
-- [x] D
+- [ ] D
 
 ```java
 class Three implements One, Two {
@@ -178,7 +178,7 @@ class Main {
 
 - [ ] The code does not compile.
 - [ ] truefalse
-- [x] truetrue
+- [ ] truetrue
 - [ ] falsetrue
 
 #### Q11. Given the following two classes, what will be the output of the Main class?
@@ -212,7 +212,7 @@ class Main {
 - [ ] Lines 1 and 2 generate compiler errors due to class name conflicts.
 - [ ] "-123"
 - [ ] It will throw an exception on line 5.
-- [x] "123"
+- [ ] "123"
 
 **Explanation:** `The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class.`
 
@@ -236,7 +236,7 @@ class Main {
 13: }
 ```
 
-- [x] It will not compile because of line 10.
+- [ ] It will not compile because of line 10.
 - [ ] "Hello!"
 - [ ] It will not compile because of line 2.
 - [ ] "World!"
@@ -254,7 +254,7 @@ class Main {
 ```
 
 - [ ] `java Main 1 2 "3 4" 5`
-- [x] `java Main 1 "2" "2" 5`
+- [ ] `java Main 1 "2" "2" 5`
 - [ ] `java Main.class 1 "2" 2 5`
 - [ ] `java Main 1 "2" "3 4" 5`
 
@@ -270,7 +270,7 @@ class Main {
 ```
 
 - [ ] "123451234512345"
-- [x] Nothing - this will not compile.
+- [ ] Nothing - this will not compile.
 - [ ] a negative integer value
 - [ ] "12345100000"
 
@@ -290,13 +290,13 @@ class Main {
 ```
 
 - [ ] The code does not compile.
-- [x] A runtime exception is thrown.
+- [ ] A runtime exception is thrown.
 - [ ] "world!!world"
 - [ ] "world!world!"
 
 #### Q16. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
 
-- [x] `for (Pencil pencil : pencilCase) {}`
+- [ ] `for (Pencil pencil : pencilCase) {}`
 - [ ] `for (pencilCase.next()) {}`
 - [ ] `for (Pencil pencil : pencilCase.iterator()) {}`
 - [ ] `for (pencil in pencilCase) {}`
@@ -313,19 +313,19 @@ System.out.print("apple".compareTo("banana"));
 
 - [ ] `0`
 - [ ] positive number
-- [x] negative number
+- [ ] negative number
 - [ ] compilation error
 
 #### Q20. You have an ArrayList of names that you want to sort alphabetically. Which approach would **NOT** work?
 
 - [ ] `names.sort(Comparator.comparing(String::toString))`
 - [ ] `Collections.sort(names)`
-- [x] `names.sort(List.DESCENDING)`
+- [ ] `names.sort(List.DESCENDING)`
 - [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
 #### Q21. By implementing encapsulation, you cannot directly access the class's \_ properties unless you are writing code inside the class itself.
 
-- [x] private
+- [ ] private
 - [ ] protected
 - [ ] no-modifier
 - [ ] public
@@ -334,7 +334,7 @@ System.out.print("apple".compareTo("banana"));
 
 - [ ] `new SimpleDateFormat("yyyy-MM-dd").format(new Date())`
 - [ ] `new Date(System.currentTimeMillis())`
-- [x] `LocalDate.now()`
+- [ ] `LocalDate.now()`
 - [ ] `Calendar.getInstance().getTime()`
 
 **Explanation**: LocalDate is newest class added in java 8
@@ -344,7 +344,7 @@ System.out.print("apple".compareTo("banana"));
 `boolean isDivisibleBy5 = _____`
 
 - [ ] `int0 / 5 ? true: false`
-- [x] `int0 % 5 == 0`
+- [ ] `int0 % 5 == 0`
 - [ ] `int0 % 5 != 5`
 - [ ] `Math.isDivisible(int0, 5)`
 
@@ -361,7 +361,7 @@ class Main {
 }
 ```
 
-- [x] 10 times
+- [ ] 10 times
 - [ ] 9 times
 - [ ] 5 times
 - [ ] infinite number of times
@@ -373,7 +373,7 @@ class Main {
 - [ ] print
 - [ ] iterative
 - [ ] hello
-- [x] main
+- [ ] main
 
 #### 26. What code would you use in Constructor A to call Constructor B?
 
@@ -389,13 +389,13 @@ public class Jedi {
 
 - [ ] Jedi(name, species, false)
 - [ ] new Jedi(name, species, false)
-- [x] this(name, species, false)
+- [ ] this(name, species, false)
 - [ ] super(name, species, false)
 
 #### Q27. Which statement is **NOT** true?
 
 - [ ] An anonymous class may specify an abstract base class as its base type.
-- [x] An anonymous class does not require a zero-argument constructor.
+- [ ] An anonymous class does not require a zero-argument constructor.
 - [ ] An anonymous class may specify an interface as its base type.
 - [ ] An anonymous class may specify both an abstract class and interface as base types.
 
@@ -415,7 +415,7 @@ public class Main {
 }
 ```
 
-- [x] [5, 1, 10]
+- [ ] [5, 1, 10]
 - [ ] [10, 5, 1]
 - [ ] [1, 5, 10]
 - [ ] [10, 1, 5]
@@ -434,14 +434,14 @@ class Main {
 ```
 
 - [ ] "Hello"
-- [x] A runtime exception is thrown.
+- [ ] A runtime exception is thrown.
 - [ ] The code does not compile.
 - [ ] "ello"
 
 #### Q30. Object-oriented programming is a style of programming where you organize your program around \_ rather than \_ and data rather than logic.
 
 - [ ] functions; actions
-- [x] objects; actions
+- [ ] objects; actions
 - [ ] actions; functions
 - [ ] actions; objects
 
@@ -450,7 +450,7 @@ class Main {
 - [ ] `"nifty".getType().equals("String")`
 - [ ] `"nifty".getType() == String`
 - [ ] `"nifty".getClass().getSimpleName() == "String"`
-- [x] `"nifty" instanceof String`
+- [ ] `"nifty" instanceof String`
 
 #### Q32. What is the output of this code?
 
@@ -471,7 +471,7 @@ class Main {
 - [ ] A runtime exception is thrown.
 - [ ] 3false
 - [ ] 2true
-- [x] 3true
+- [ ] 3true
 
 #### Q33. What is the result of this code?
 
@@ -494,14 +494,14 @@ class Main {
 
 - [ ] It will not compile because of line 7.
 - [ ] Hello!Hello!
-- [x] Hello!World!
+- [ ] Hello!World!
 - [ ] It will not compile because of line 11.
 
 #### Q34. What method can be used to create a new instance of an object?
 
 - [ ] another instance
 - [ ] field
-- [x] constructor
+- [ ] constructor
 - [ ] private method
 
 #### Q35. Which is the most reliable expression for testing whether the values of two string variables are the same?
@@ -509,7 +509,7 @@ class Main {
 - [ ] string1 == string2
 - [ ] string1 = string2
 - [ ] string1.matches(string2)
-- [x] string1.equals(string2)
+- [ ] string1.equals(string2)
 
 #### Q36. Which letters will print when this code is run?
 
@@ -533,7 +533,7 @@ public static void badMethod() {
 - [ ] A, B, and D
 - [ ] A, C, and D
 - [ ] C and D
-- [x] A and D
+- [ ] A and D
 
 **Explanation**: `Error` is not inherited from `Exception`
 
@@ -556,7 +556,7 @@ class Main {
 
 - [ ] It will throw a runtime exception.
 - [ ] It will not compile.
-- [x] It will print "Hello World!" three times.
+- [ ] It will print "Hello World!" three times.
 - [ ] It will run forever.
 
 #### Q38. What is the output of this code?
@@ -576,7 +576,7 @@ class Main {
 - [ ] [abc, 0, 2, 10]
 - [ ] The code does not compile.
 - [ ] [abc, 2, 10, 0]
-- [x] [0, 10, 2, abc]
+- [ ] [0, 10, 2, abc]
 
 **Explanation**: The `java.util.Arrays.asList(T... a)` returns a fixed-size list backed by the specified array. (Changes to the returned list "write through" to the array.)
 
@@ -598,7 +598,7 @@ class Main {
 ```
 
 - [ ] Hello World!
-- [x] HelloHelloWorld!
+- [ ] HelloHelloWorld!
 - [ ] Hello Hello World!
 - [ ] Hello HelloWorld!
 
@@ -616,7 +616,7 @@ public class Main {
 
 - [ ] x
 - [ ] null
-- [x] 10
+- [ ] 10
 - [ ] 5
 
 #### Q41. Which approach cannot be used to iterate over a List named _theList_?
@@ -637,7 +637,7 @@ for (Object object : theList) {
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```java
 Iterator it = theList.iterator();
@@ -659,7 +659,7 @@ theList.forEach(System.out::println);
 `boolean healthyOrNot = isHealthy("avocado");`
 
 - [ ] public void isHealthy(String avocado)
-- [x] boolean isHealthy(String string)
+- [ ] boolean isHealthy(String string)
 - [ ] public isHealthy("avocado")
 - [ ] private String isHealthy(String food)
 
@@ -668,20 +668,20 @@ theList.forEach(System.out::println);
 - [ ] provides, employs
 - [ ] imports, exports
 - [ ] consumes, supplies
-- [x] requires, exports
+- [ ] requires, exports
 
 #### Q44. Which type of variable keeps a constant value once it is assigned?
 
 - [ ] non-static
 - [ ] static
-- [x] final
+- [ ] final
 - [ ] private
 
 #### Q45. How does the keyword `volatile` affect how a variable is handled?
 
 - [ ] It will be read by only one thread at a time.
 - [ ] It will be stored on the hard drive.
-- [x] It will never be cached by the CPU.
+- [ ] It will never be cached by the CPU.
 - [ ] It will be preferentially garbage collected.
 
 #### Q46. What is the result of this code?
@@ -693,7 +693,7 @@ System.out.println((int) smooch);
 
 - [ ] an alphanumeric character
 - [ ] a negative number
-- [x] a positive number
+- [ ] a positive number
 - [ ] a ClassCastException
 
 #### Q47. You get a NullPointerException. What is the most likely cause?
@@ -701,7 +701,7 @@ System.out.println((int) smooch);
 - [ ] A file that needs to be opened cannot be found.
 - [ ] A network connection has been lost in the middle of communications.
 - [ ] Your code has used up all available memory.
-- [x] The object you are using has not been instantiated.
+- [ ] The object you are using has not been instantiated.
 
 #### Q48. How would you fix this code so that it compiles?
 
@@ -714,7 +714,7 @@ public class Nosey {
 }
 ```
 
-- [x] Make age static.
+- [ ] Make age static.
 - [ ] Make age global.
 - [ ] Make age public.
 - [ ] Initialize age to a number.
@@ -732,14 +732,14 @@ public class Duck {
       `ducks.add(waddles);`
 - [ ] `Duck duck = new Duck("Waddles");`
       `ducks.add(waddles);`
-- [x] `ducks.add(new Duck("Waddles"));`
+- [ ] `ducks.add(new Duck("Waddles"));`
 - [ ] `ducks.add(new Waddles());`
 
 #### Q50. If you encounter `UnsupportedClassVersionError` it means the code was `___` on a newer version of Java than the JRE `___` it.
 
 - [ ] executed; interpreting
 - [ ] executed; compiling
-- [x] compiled; executing
+- [ ] compiled; executing
 - [ ] compiled, translating
 
 #### Q51. Given this class, how would you make the code compile?
@@ -766,7 +766,7 @@ public TheClass() {
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```java
 public TheClass() {
@@ -799,7 +799,7 @@ public class Solution {
 }
 ```
 
-- [x] 4
+- [ ] 4
 - [ ] 3
 - [ ] 5
 - [ ] A Runtime exception will be thrown
@@ -814,13 +814,13 @@ public class Solution {
 
 - [ ] 1, 2, and 3
 - [ ] only 3
-- [x] 2 and 3
+- [ ] 2 and 3
 - [ ] only 2
 
 #### Q54. Which keyword lets you call the constructor of a parent class?
 
 - [ ] parent
-- [x] super
+- [ ] super
 - [ ] this
 - [ ] new
 
@@ -833,14 +833,14 @@ public class Solution {
   4: System.out.println(c);
 ```
 
-- [x] It will throw an ArithmeticException.
+- [ ] It will throw an ArithmeticException.
 - [ ] It will run and output 0.
 - [ ] It will not compile because of line 3.
 - [ ] It will run and output infinity.
 
 #### Q56. Normally, to access a static member of a class such as Math.PI, you would need to specify the class "Math". What would be the best way to allow you to use simply "PI" in your code?
 
-- [x] Add a static import.
+- [ ] Add a static import.
 - [ ] Declare local copies of the constant in your code.
 - [ ] This cannot be done. You must always qualify references to static members with the class form which they came from.
 - [ ] Put the static members in an interface and inherit from that interface.
@@ -848,13 +848,13 @@ public class Solution {
 #### Q57. Which keyword lets you use an interface?
 
 - [ ] extends
-- [x] implements
+- [ ] implements
 - [ ] inherits
 - [ ] import
 
 #### Q58. Why are ArrayLists better than arrays?
 
-- [x] You don't have to decide the size of an ArrayList when you first make it.
+- [ ] You don't have to decide the size of an ArrayList when you first make it.
 - [ ] You can put more items into an ArrayList than into an array.
 - [ ] ArrayLists can hold more kinds of objects than arrays.
 - [ ] You don't have to decide the type of an ArrayList when you first make it.
@@ -863,7 +863,7 @@ public class Solution {
 
 - [ ] int pi = 3.141;
 - [ ] decimal pi = 3.141;
-- [x] double pi = 3.141;
+- [ ] double pi = 3.141;
 - [ ] float pi = 3.141;
 
 **Reasoning:**
@@ -895,7 +895,7 @@ public class MagicPower {
 }
 ```
 
-- [x] `new MagicPower().castSpell("expecto patronum")`
+- [ ] `new MagicPower().castSpell("expecto patronum")`
 - [ ] `MagicPower magicPower = new MagicPower();`
       `magicPower.castSpell();`
 - [ ] `MagicPower.castSpell("expelliarmus");`
@@ -905,7 +905,7 @@ public class MagicPower {
 
 - [ ] constructor
 - [ ] instance
-- [x] class
+- [ ] class
 - [ ] method
 
 #### Q62. What does this code print?
@@ -925,7 +925,7 @@ static void swapsies(int a, int b) {
 ```
 
 - [ ] 10 10
-- [x] 5 10
+- [ ] 5 10
 - [ ] 10 5
 - [ ] 5 5
 
@@ -944,7 +944,7 @@ try {
 ```
 
 - [ ] Hello World
-- [x] It will not compile because the second catch statement is unreachable
+- [ ] It will not compile because the second catch statement is unreachable
 - [ ] Hello World!
 - [ ] It will throw runtime exception
 
@@ -953,13 +953,13 @@ try {
 - [ ] finally
 - [ ] native
 - [ ] interface
-- [x] unsigned
+- [ ] unsigned
 
 **Explanation:** `native` is a part of JNI interface
 
 #### Q65. Which operator would you use to find the remainder after division?
 
-- [x] `%`
+- [ ] `%`
 - [ ] `//`
 - [ ] `/`
 - [ ] `DIV`
@@ -970,7 +970,7 @@ try {
 
 - [ ] Overridden methods of the parent class cannot be reused.
 - [ ] Responsibilities are not evenly distributed between parent and child classes.
-- [x] Classes related by inheritance are tightly coupled to each other.
+- [ ] Classes related by inheritance are tightly coupled to each other.
 - [ ] The internal state of the parent class is accessible to its children.
 
 [Reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
@@ -979,7 +979,7 @@ try {
 
 - [ ] `Array<Integer> numbers = new Array<Integer>(10);`
 - [ ] `Array[int] numbers = new Array[int](10);`
-- [x] `int[] numbers = new int[10];`
+- [ ] `int[] numbers = new int[10];`
 - [ ] `int numbers[] = int[10];`
 
 #### Q68. Refactor this event handler to a lambda expression:
@@ -994,7 +994,7 @@ groucyButton.addActionListener(new ActionListener() {
 ```
 
 - [ ] `groucyButton.addActionListener(ActionListener listener -> System.out.println("Press me one more time..."));`
-- [x] `groucyButton.addActionListener((event) -> System.out.println("Press me one more time..."));`
+- [ ] `groucyButton.addActionListener((event) -> System.out.println("Press me one more time..."));`
 - [ ] `groucyButton.addActionListener(new ActionListener(ActionEvent e) {() -> System.out.println("Press me one more time...");});`
 - [ ] `groucyButton.addActionListener(() -> System.out.println("Press me one more time..."));`
 
@@ -1005,14 +1005,14 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] Observer, Observable
 - [ ] Collector, Builder
 - [ ] Filter, Map, Reduce
-- [x] Consumer, Predicate, Supplier
+- [ ] Consumer, Predicate, Supplier
 
 [Reference](https://www.baeldung.com/java-8-functional-interfaces)
 
 #### Q69. What is a valid use of the hashCode() method?
 
 - [ ] encrypting user passwords
-- [x] deciding if two instances of a class are equal
+- [ ] deciding if two instances of a class are equal
 - [ ] enabling HashMap to find matches faster
 - [ ] moving objects from a List to a HashMap
 
@@ -1021,7 +1021,7 @@ groucyButton.addActionListener(new ActionListener() {
 #### Q70. What kind of relationship does "extends" denote?
 
 - [ ] uses-a
-- [x] is-a
+- [ ] is-a
 - [ ] has-a
 - [ ] was-a
 
@@ -1030,7 +1030,7 @@ groucyButton.addActionListener(new ActionListener() {
 #### Q71. How do you force an object to be garbage collected?
 
 - [ ] Set object to null and call Runtime.gc()
-- [x] Set object to null and call System.gc()
+- [ ] Set object to null and call System.gc()
 - [ ] Set object to null and call Runtime.getRuntime().runFinalization()
 - [ ] There is no way to force an object to be garbage collected
 
@@ -1038,14 +1038,14 @@ groucyButton.addActionListener(new ActionListener() {
 
 #### Q72. Java programmers commonly use design patterns. Some examples are the **\_**, which helps create instances of a class, the **\_**, which ensures that only one instance of a class can be created; and the **\_**, which allows for a group of algorithms to be interchangeable.
 
-- [x] static factory method; singleton; strategy pattern
+- [ ] static factory method; singleton; strategy pattern
 - [ ] strategy pattern; static factory method; singleton
 - [ ] creation pattern; singleton; prototype pattern
 - [ ] singleton; strategy pattern; static factory method
 
 #### Q73. Using Java's Reflection API, you can use \_ to get the name of a class and \_ to retrieve an array of its methods.
 
-- [x] this.getClass().getSimpleName(); this.getClass().getDeclaredMethods()
+- [ ] this.getClass().getSimpleName(); this.getClass().getDeclaredMethods()
 - [ ] this.getName(); this.getMethods()
 - [ ] Reflection.getName(this); Reflection.getMethods(this)
 - [ ] Reflection.getClass(this).getName(); Reflection.getClass(this).getMethods()
@@ -1054,7 +1054,7 @@ groucyButton.addActionListener(new ActionListener() {
 
 - [ ] `a -> false;`
 - [ ] `(a) -> false;`
-- [x] `String a -> false;`
+- [ ] `String a -> false;`
 - [ ] `(String a) -> false;`
 
 #### Q75. Which access modifier makes variables and methods visible only in the class where they are declared?
@@ -1062,20 +1062,20 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] public
 - [ ] protected
 - [ ] nonmodifier
-- [x] private
+- [ ] private
 
 #### Q76. What type of variable can be assigned to only once?
 
 - [ ] private
 - [ ] non-static
-- [x] final
+- [ ] final
 - [ ] static
 
 #### Q77. How would you convert a String to an Int?
 
 - [ ] `"21".intValue()`
 - [ ] `String.toInt("21")`
-- [x] `Integer.parseInt("21")`
+- [ ] `Integer.parseInt("21")`
 - [ ] `String.valueOf("21")`
 
 #### Q78. What method should be added to the Duck class to print the name Moby?
@@ -1094,14 +1094,14 @@ public class Duck {
 }
 ```
 
-- [x] `public String toString() { return name; } `
+- [ ] `public String toString() { return name; } `
 - [ ] `public void println() { System.out.println(name); } `
 - [ ] `String toString() { return this.name; } `
 - [ ] `public void toString() { System.out.println(this.name); } `
 
 #### Q79. Which operator is used to concatenate Strings in Java
 
-- [x] -
+- [ ] -
 - [ ] &
 - [ ] .
 - [ ] -
@@ -1115,7 +1115,7 @@ for (int i = 44; i > 40; i--) {
 ```
 
 - [ ] two
-- [x] four
+- [ ] four
 - [ ] three
 - [ ] five
 
@@ -1131,13 +1131,13 @@ for (int i = 44; i > 40; i--) {
 
 - [ ] p
 - [ ] r
-- [x] e
+- [ ] e
 - [ ] i
 
 #### Q82. When should you use a static method?
 
 - [ ] when your method is related to the object's characteristics
-- [x] when you want your method to be available independently of class instances
+- [ ] when you want your method to be available independently of class instances
 - [ ] when your method uses an object's instance variable
 - [ ] when your method is dependent on the specific instance that calls it
 
@@ -1145,12 +1145,12 @@ for (int i = 44; i > 40; i--) {
 
 - [ ] pass by reference
 - [ ] pass by occurrence
-- [x] pass by value
+- [ ] pass by value
 - [ ] API call
 
 #### Q84. In Java, what is the scope of a method's argument or parameter?
 
-- [x] inside the method
+- [ ] inside the method
 - [ ] both inside and outside the method
 - [ ] neither inside nor outside the method
 - [ ] outside the method
@@ -1169,7 +1169,7 @@ public class Main {
 - [ ] 5
 - [ ] 8
 - [ ] 1
-- [x] 3
+- [ ] 3
 
 #### Q86. Which change will make this code compile successfully?
 
@@ -1186,7 +1186,7 @@ public class Main {
 - [ ] Change line 2 to `public static final String message`
 - [ ] Change line 6 to `public void print2(){}`
 - [ ] Remove the body of the `print2` method and add a semicolon.
-- [x] Remove the body of the `print` method.
+- [ ] Remove the body of the `print` method.
 
 **Explanation**: Changing line 2 to `public static final String message` raises the error `message not initialized in the default constructor`
 
@@ -1207,7 +1207,7 @@ class Main {
 ```
 
 - [ ] falsefalse
-- [x] truetrue
+- [ ] truetrue
 - [ ] falsetrue
 - [ ] truefalse
 
@@ -1216,7 +1216,7 @@ class Main {
 - [ ] `ArrayList<String> words = new ArrayList<String>(){"Hello", "World"};`
 - [ ] `ArrayList words = Arrays.asList("Hello", "World");`
 - [ ] `ArrayList<String> words = {"Hello", "World"};`
-- [x] `ArrayList<String> words = new ArrayList<>(Arrays.asList("Hello", "World"));`
+- [ ] `ArrayList<String> words = new ArrayList<>(Arrays.asList("Hello", "World"));`
 
 #### Q89. What is the output of this code?
 
@@ -1230,7 +1230,7 @@ class Main {
 }
 ```
 
-- [x] A runtime exception is thrown.
+- [ ] A runtime exception is thrown.
 - [ ] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
@@ -1249,7 +1249,7 @@ public class Jedi {
 
 - [ ] Jedi(name, species, false)
 - [ ] new Jedi(name, species, false)
-- [x] this(name, species, false)
+- [ ] this(name, species, false)
 - [ ] # super(name, species, false)
   **Note:** This code won't compile, possibly broken code sample
 
@@ -1263,7 +1263,7 @@ class TaxCalculator {
 }
 ```
 
-- [x] TaxCalculator.calculate(50);
+- [ ] TaxCalculator.calculate(50);
 - [ ] new TaxCalculator.calculate(50);
 - [ ] calculate(50);
 - [ ] new TaxCalculator.calculate($50);
@@ -1286,7 +1286,7 @@ class TaxCalculator {
 - [ ] p
 - [ ] i
 - [ ] r
-- [x] e
+- [ ] e
 
 #### Q92. What is the output of this code?
 
@@ -1306,6 +1306,6 @@ class Main {
 ```
 
 - [ ] it will run forever.
-- [x] it will print "Hello World!" three times.
+- [ ] it will print "Hello World!" three times.
 - [ ] it will not compile.
 - [ ] it will throw a runtime exception.
